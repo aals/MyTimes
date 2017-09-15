@@ -1,3 +1,6 @@
+body{
+    margin-top: 0px;
+}
 header{
     display: flex;
     border-bottom: 1px solid black;
@@ -11,6 +14,7 @@ header{
     width: 100%;
     padding-bottom: 5px;
     z-index: 1;
+    background-color: white;
 }
 nav{
     padding-right: 40px;
@@ -38,16 +42,13 @@ nav a{
     justify-content: space-between;
     width: 1232px;
     margin: 0 auto 78px auto;
-    border: 1px solid black;
     position: relative;
     top: 116px;
-    
 }
 .column{
-    border: 1px solid black;
-    margin-right: 32px;
     display: flex;
     flex-direction: column;
+    
 }
 .column.large {
     width: 630px;
@@ -58,14 +59,26 @@ nav a{
 .column.small {
     width: 240px;
 }
+.stories{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+.story{
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-between;
+    width: 300px;
+}
 .story-image{
     font-family: Georgia;
     font-weight: bold;
     font-size: 30px;
     color: white;
-    border: 1px solid black;
     display: flex;
     height: 300px;
+    text-align: center;
+    
 }
 .box{
     border: 1px solid black;
@@ -73,7 +86,9 @@ nav a{
 .story-text{
     font-family: Georgia;
     font-size: 17px;
-    color: black;}
+    color: black;
+    height: 250px;
+}
 .main-story-image{
     background-image: url('../images/img-story-main.png');
     font-size: 40px;
@@ -86,4 +101,19 @@ nav a{
 }
 .camera-story-image{
     background-image: url('../images/img-story-3.png');
+}
+.bites-list span{
+    display: block;
+    background-color: whitesmoke;
+    border-bottom: 1px solid black;
+    font-family: Verdana;
+    font-size: 12px;
+    color: dimgray;
+    padding: 12px 20px;
+}
+.bites-list h3{
+    text-align: center;
+    font-size:  16px;
+    font-weight: bold;
+    margin-bottom: 60px;
 }
