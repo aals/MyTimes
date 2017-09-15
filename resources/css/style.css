@@ -34,7 +34,7 @@ nav a{
 }
 .content{
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
     width: 1232px;
     margin: 0 auto 78px auto;
@@ -65,6 +65,7 @@ nav a{
     color: white;
     border: 1px solid black;
     display: flex;
+    height: 300px;
 }
 .box{
     border: 1px solid black;
